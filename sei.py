@@ -6,7 +6,7 @@ import datetime
 @app.route('/')
 
 def index():
-  return render_template("index4.html", Ora=datetime.datetime.utcnow())
+  return render_template("index6.html", Ora=datetime.datetime.utcnow())
 
 
 @app.route('/mappa')
